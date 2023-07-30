@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #292d34;
+  font-family: 'Courier New', monospace;
+}
+
+.terminal {
+  background-color: #1b1d22;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.terminal-header {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #292d34;
+}
+
+.terminal-header span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.red {
+  background-color: #ff5f57;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #28c941;
+}
+
+.terminal-line {
+  color: #fff;
+  margin: 5px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.terminal-line::before {
+  content: 'del1rium@MBP ~ % ';
+  color: #fbb714;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #292d34;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info {
+  color: #a982ce;
+  font-size: 17px;
+}
+
+.vim {
+  color: #fff;
+  content: ':wq ';
+}
+
+a {
+  text-decoration: none;
+  color: #28c941;
+}
+
+a:hover {
+  color: #078f1b;
+}
+
+.txt {
+  color: #fff;
+  font-size: 17px;
+}
