@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Anonymous Pro'; 
+  src: url(/font/anonymous_pro.ttf);
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -5,7 +10,7 @@ body {
   margin: 0;
   height: 100vh;
   background-color: #292d34;
-  font-family: 'Courier New', monospace;
+  font-family: 'Anonymous Pro';
 }
 
 .terminal {
